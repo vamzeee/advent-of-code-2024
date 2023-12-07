@@ -1,7 +1,7 @@
 # https://adventofcode.com/2023/day/2
 
 sum = 0
-with open("D:/advent-of-code-2024/day-2/input.txt") as input :
+with open("D:/advent-of-code-2024/02/input.txt") as input :
     for line in input :
         game_number = int(line.split(':')[0].split()[1])
         games = line.split(':')[1].split(';')

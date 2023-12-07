@@ -1,4 +1,4 @@
-D = open("D:/advent-of-code-2024/day-3/input.txt").read().strip()
+D = open("D:/advent-of-code-2024/03/input.txt").read().strip()
 lines = D.split('\n')
 matrix = [[c for c in line] for line in lines]
 R = len(matrix)

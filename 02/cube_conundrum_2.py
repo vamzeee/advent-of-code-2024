@@ -2,7 +2,7 @@
 
 sum = 0
 
-with open("D:/advent-of-code-2024/day-2/input.txt") as input :
+with open("D:/advent-of-code-2024/02/input.txt") as input :
     for line in input :
         games = line.split(':')[1].split(';')
         min_red = 0
