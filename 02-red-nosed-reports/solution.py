@@ -1,6 +1,6 @@
 ################# part 1 ###############
 
-input = open('D:/advent-of-code-2024/02-red-nosed-reports/input.txt').read().strip()
+input = open('input.txt').read().strip()
 
 safe_reports = 0
 
@@ -22,6 +22,7 @@ for line in input.splitlines() :
         safe_reports = safe_reports + 1
 
 print(safe_reports)
+
 
 ################# part 2 ###############
 
